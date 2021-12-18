@@ -8,8 +8,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        sketch: ['blink']
-        fqbn: ['pca10056', 'pca10059']
+        sketch: ['nrf52840_tester']
+        fqbn: ['bluemicro840']
 
     runs-on: ubuntu-latest
     
