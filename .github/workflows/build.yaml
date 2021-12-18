@@ -9,7 +9,7 @@ jobs:
       fail-fast: false
       matrix:
         sketch: ['nrf52840_tester']
-        fqbn: ['bluemicro840']
+        fqbn: ['bluemicro_nrf52840']
 
     runs-on: ubuntu-latest
     
